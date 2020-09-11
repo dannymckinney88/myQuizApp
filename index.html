@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link rel="stylesheet" href="2cols.css" />
+	<title>Document</title>
+</head>
+
+<body>
+	<header>tiitle goes here</header>
+	<div class="container">
+		<h1 id="question">
+			How many blue stripes are there on the U.S. flag?
+		</h1>
+		<div class="section group" id='container'>
+			<div class="col span">
+				<form name="radio">
+					<input type="radio" name="answer" id="1" value="a" class="user-guess" />
+					<h1 class="guess-option" id="guess-option1">A.6</h1>
+			</div>
+			<div class="col span">
+				<input type="radio" name="answer" id="2" value="b" class="user-guess" />
+				<h1 class="guess-option" id="guess-option2">B.7</h1>
+			</div>
+		</div>
+		<div class="section group">
+			<div class="col span">
+				<input type="radio" name="answer" id="3" value="c" class="user-guess" />
+				<h1 class="guess-option" id="guess-option3">C.13</h1>
+			</div>
+			<div class="col span">
+				<input type="radio" name="answer" id="4" value="d" class="user-guess" />
+				<h1 class="guess-option" id="guess-option4">D. 0</h1>
+			</div>
+		</div>
+		</form>
+		<a href="#" class="myButton">Submit</a>
+	</div>
+	<div class="score"></div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
